@@ -163,36 +163,6 @@ git push -u origin main
 
 Your app will be live in ~2 minutes!
 
-### Deploying to Netlify
-
-1. **Build the project**
-```bash
-npm run build
-```
-
-2. **Deploy to Netlify**
-- Drag and drop the `dist` folder to [app.netlify.com/drop](https://app.netlify.com/drop)
-
-OR use Netlify CLI:
-```bash
-npm install -g netlify-cli
-netlify deploy --prod --dir=dist
-```
-
-### Deploying to GitHub Pages
-
-1. **Install gh-pages**
-```bash
-npm install --save-dev gh-pages
-```
-
-2. **Update vite.config.js**
-```javascript
-export default defineConfig({
-  base: '/your-repo-name/',
-  plugins: [react()],
-})
-```
 
 3. **Add deploy scripts to package.json**
 ```json
