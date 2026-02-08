@@ -17,7 +17,12 @@
   min-height: 100vh;
   color: #fff;
   font-family: 'Outfit', sans-serif;
-  background: linear-gradient(165deg, var(--bg-start) 0%, var(--bg-mid) 50%, var(--bg-end) 100%);
+  background: linear-gradient(
+    165deg,
+    var(--bg-start) 0%,
+    var(--bg-mid) 50%,
+    var(--bg-end) 100%
+  );
 }
 
 .container {
@@ -38,6 +43,7 @@
   position: sticky;
   top: 0;
   z-index: 100;
+  padding: 0px 20px;
   border-bottom: 1px solid var(--border-light);
   background: var(--panel-bg);
   backdrop-filter: blur(20px);
@@ -58,7 +64,11 @@
   font-size: 2rem;
   font-weight: 700;
   letter-spacing: -0.02em;
-  background: linear-gradient(135deg, var(--accent-start) 0%, var(--accent-end) 100%);
+  background: linear-gradient(
+    135deg,
+    var(--accent-start) 0%,
+    var(--accent-end) 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -125,12 +135,15 @@
 }
 
 .filters-button.active {
-  background: linear-gradient(135deg, var(--accent-start) 0%, var(--accent-end) 100%);
+  background: linear-gradient(
+    135deg,
+    var(--accent-start) 0%,
+    var(--accent-end) 100%
+  );
 }
 
 .filters-panel {
   border-top: 1px solid var(--border-light);
-  background: rgba(10, 14, 39, 0.95);
   animation: slideDown 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -167,7 +180,7 @@
 }
 
 .main-content {
-  padding: 3rem 0;
+  padding: 3rem 2rem;
 }
 
 .empty-state {
@@ -230,7 +243,11 @@
   top: 1rem;
   right: 1rem;
   padding: 0.5rem 1rem;
-  background: linear-gradient(135deg, var(--accent-start) 0%, var(--accent-end) 100%);
+  background: linear-gradient(
+    135deg,
+    var(--accent-start) 0%,
+    var(--accent-end) 100%
+  );
   border-radius: 20px;
   font-size: 1.125rem;
   font-weight: 600;
@@ -337,7 +354,11 @@
 .detail-price {
   display: inline-block;
   padding: 0.75rem 1.5rem;
-  background: linear-gradient(135deg, var(--accent-start) 0%, var(--accent-end) 100%);
+  background: linear-gradient(
+    135deg,
+    var(--accent-start) 0%,
+    var(--accent-end) 100%
+  );
   border-radius: 30px;
   font-size: 1.5rem;
   font-weight: 600;
@@ -435,7 +456,11 @@
   width: 100%;
   margin-top: 2rem;
   padding: 1rem;
-  background: linear-gradient(135deg, var(--accent-start) 0%, var(--accent-end) 100%);
+  background: linear-gradient(
+    135deg,
+    var(--accent-start) 0%,
+    var(--accent-end) 100%
+  );
   border: none;
   border-radius: 14px;
   color: #fff;
@@ -496,6 +521,9 @@
 }
 
 @media (max-width: 768px) {
+  .app-header {
+    padding: 10px 0px;
+  }
   .container,
   .container-narrow {
     padding: 0 1.5rem;
