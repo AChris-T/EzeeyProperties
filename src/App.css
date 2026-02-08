@@ -526,12 +526,12 @@
   }
   .container,
   .container-narrow {
-    padding: 0 1.5rem;
+    padding: 2rem 1.5rem;
   }
 
   .main-content,
   .detail-main {
-    padding: 2rem 0;
+    padding: 2rem 2rem;
   }
 
   .property-grid {
