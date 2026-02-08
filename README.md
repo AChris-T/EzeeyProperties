@@ -4,7 +4,7 @@ A beautifully designed React application for browsing rental properties with fil
 
 ## 🚀 Live Demo
 
-[View Live Application](#) _(Deploy to Vercel/Netlify and add link here)_
+[ezeey-properties.vercel.app](#) _(Deploy to Vercel and add link here)_
 
 ## ✨ Features
 
